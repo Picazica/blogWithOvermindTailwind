@@ -29,5 +29,6 @@ export const overmind = createOvermind({
       if (state.blogs) state.loading = false;
       state.length = state.blogs.length;
     },
+    update() {},
   },
 });
